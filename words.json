@@ -8,5 +8,5 @@
     "term" : "CSS",
     "definition": "Cascading Style Sheets, used to add styling to HTML pages",
     "example" :  "body { color: red; }"
-  },
+  }
 ]
