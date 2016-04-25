@@ -7,7 +7,6 @@ angular.module('buzzwords', [])
 
   $http.get('http://rcacademy.github.io/buzzwords/words.json')
   .then(function successCallback(response) {
-    console.log(response);
     $scope.words = response.data;
   });
 }]);
