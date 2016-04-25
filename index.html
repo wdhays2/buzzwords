@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Buzzwords</title>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="css/buzzwords.css" media="screen" charset="utf-8">
     <script src="bower_components/angular/angular.min.js" charset="utf-8"></script>
     <script src="js/buzzwords.js" charset="utf-8"></script>
   </head>
@@ -17,19 +18,18 @@
 
       <div class = "row">
         <div class = "col-md-12">
-          <input type = "text" class = "form-control" placeholder="Enter a word or term...">
+          <input type = "text" class = "form-control" ng-model = "searchTerm" placeholder="Enter a word or term...">
         <div>
       </div>
 
-      <div class = "row">
+      <div class = "row definitions">
         <div class = "col-md-12">
-
-          <table class = "table">
+          <table class = "table table-striped">
             <thead>
-              <th>Word</th><th>Definition</th><th>Example</th>
+              <th>Word</th><th>Definition</th>
             </thead>
-            <tr ng-repeat = "word in words">
-              <td ng-bind = "word.term"></td><td ng-bind = "word.definition"></td><td ng-bind = "word.example"></td>
+            <tr ng-repeat = "word in words | filter:searchTerm">
+              <td class = "term" ng-bind = "word.term"></td><td ng-bind = "word.definition"></td></td>
             </tr>
           </table>
 
