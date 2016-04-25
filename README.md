@@ -13,5 +13,6 @@ We will improve this over time but right now, all the words and definitions can 
 * Submit a pull request (there's another buzzword) to have your word added to the dictionary!
 
 #### Potential/Future Features
-* The ability to view examples and use cases.
-* The ability to view examples and use cases in multiple languages.
+* The ability to view examples and use cases
+* The ability to view examples and use cases in multiple languages
+* Please submit new ideas for the dictionary under [Issues](https://github.com/rcacademy/buzzwords/issues)
