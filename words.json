@@ -2,11 +2,13 @@
   {
     "term" : "HTML",
     "definition": "Hypertext Markup Language, a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.",
-    "example" :  "<html></html>"
+    "example" :  "<html></html>",
+    "keywords" : ""
   },
   {
     "term" : "CSS",
     "definition": "Cascading Style Sheets, used to add styling to HTML pages",
-    "example" :  "body { color: red; }"
+    "example" :  "body { color: red; }",
+    "keywords" : ""
   },
 ]
