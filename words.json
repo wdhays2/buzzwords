@@ -22,5 +22,5 @@
     "definition": "A central location in which data is stored and managed.",
     "example" :  "http://github/username/repository",
     "keywords" : ""
-  },
+  }
 ]
