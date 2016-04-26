@@ -18,9 +18,9 @@
     "keywords" : ""
   },
   {
-    "term" : "Fork",
-    "definition": "Version control system, widely used for software development and other version control tasks.",
-    "example" :  "git init",
+    "term" : "Repository",
+    "definition": "A central location in which data is stored and managed.",
+    "example" :  "http://github/username/repository",
     "keywords" : ""
   },
 ]
