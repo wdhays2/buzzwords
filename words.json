@@ -10,5 +10,17 @@
     "definition": "Cascading Style Sheets, used to add styling to HTML pages",
     "example" :  "body { color: red; }",
     "keywords" : ""
-  }
+  },
+  {
+    "term" : "Git",
+    "definition": "Version control system, widely used for software development and other version control tasks.",
+    "example" :  "git init",
+    "keywords" : ""
+  },
+  {
+    "term" : "Repository",
+    "definition": "A central location in which data is stored and managed.",
+    "example" :  "http://github/username/repository",
+    "keywords" : ""
+  },
 ]
