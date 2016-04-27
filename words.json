@@ -28,5 +28,11 @@
     "definition": "A central location in which data is stored and managed.",
     "example" :  "http://github/username/repository",
     "keywords" : ""
+  },
+  {
+    "term" : "Javascript",
+    "definition": "A programming language that alongside HTML and CSS, is one of the three core technologies of World Wide Web content production. The majority of websites employ Javascript and it is supported by all modern Web browsers without plug-ins.",
+    "example" :  "http://www.w3schools.com/js/",
+    "keywords" : ""
   }
 ]
