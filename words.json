@@ -1,7 +1,7 @@
 [
   {
     "term" : "Bower",
-    "definition": "A package manager for the web, it \"installs the right versions of the packages you need and their dependencies."\",
+    "definition": "A package manager for the web, it &quot;installs the right versions of the packages you need and their dependencies.&quot;",
     "example" :  "$ bower install <package>",
     "keywords" : "pkgmanager"
   },
